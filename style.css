@@ -430,3 +430,123 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* ===== FIX EXTRA GAPS BETWEEN SECTIONS ===== */
+
+/* Remove forced heights */
+section {
+  height: auto !important;
+  min-height: auto !important;
+  margin: 0 8%;
+  padding: 4rem 0;   /* consistent spacing */
+}
+
+/* Profile section */
+#profile {
+  height: auto !important;
+  padding: 6rem 0 4rem 0;
+}
+
+/* About / Experience / Projects / Contact */
+#about,
+#experience,
+#projects,
+#contact {
+  height: auto !important;
+  padding: 4rem 0;
+}
+
+/* Containers spacing fix */
+.experience-details-container,
+.section-container,
+.about-containers {
+  margin: 0;
+  padding: 0;
+}
+
+/* Cards spacing */
+.details-container {
+  margin: 1rem 0;
+}
+
+/* Contact section fix */
+#contact {
+  padding: 3rem 0 2rem 0;
+}
+
+/* Footer spacing */
+footer {
+  height: auto !important;
+  padding: 2rem 0;
+}
+
+
+/* ===== GREY BACKGROUND THEME ===== */
+
+body {
+  background-color: #9f9d9d;   /* soft grey background */
+  color: #222;
+}
+
+/* Sections */
+section {
+  background-color: transparent;
+}
+
+/* Cards / Containers */
+.details-container,
+.color-container,
+.contact-info-upper-container {
+  background-color: #aca8a8;   /* light grey cards */
+  border: 1px solid #ccc;
+}
+
+/* Navbar */
+nav {
+  background-color: #e0e0e0;
+}
+
+/* Text colors */
+p {
+  color: #444;
+}
+
+.title,
+.logo,
+h1,
+h2,
+h3 {
+  color: #111;
+}
+
+/* Links */
+a {
+  color: #111;
+}
+
+a:hover {
+  color: #555;
+  text-decoration-color: #555;
+}
+
+/* Buttons */
+.btn-color-1 {
+  background: #333;
+  color: #fff;
+}
+
+.btn-color-2 {
+  background: transparent;
+  border: 1px solid #333;
+  color: #333;
+}
+
+.btn-color-2:hover {
+  background: #333;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  background-color: #dcdcdc;
+}
